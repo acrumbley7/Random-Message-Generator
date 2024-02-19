@@ -1,6 +1,6 @@
 /**
- * Name: <your name>
- * GTID: <your GTID>
+ * Name: Aliyah Crumbley
+ * GTID: 903543166
  */
 
 /*
@@ -33,7 +33,25 @@ int main(int argc, char *argv[])
      * When you are done with this section and have gotten your GDB screenshot, delete the entire line.
      * 
      */
-
+    int opt;
+    while ((opt = getopt(argc, argv, "tl:")) != -1) {
+        switch(opt) {
+            case 't':
+                tests = 1;
+                break;
+            case 'l':
+                int arg = atoi(optarg);
+                if (arg > 15 || arg < 1) {
+                    printf("value must be between 1 and 15");
+                } else {
+                    length = arg;
+                }
+                break;
+            case ':':
+                printf("option needs a value\n");
+                break;
+        }
+    }
 
 
 

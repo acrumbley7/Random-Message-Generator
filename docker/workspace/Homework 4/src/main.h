@@ -1,6 +1,6 @@
 /**
- * Name: <your name>
- * GTID: <your GTID>
+ * Name: Aliyah Crumbley
+ * GTID: 903543166
  * This file contains the main method and the generateMessage method.
  * You will submit this file to gradescope.
  */

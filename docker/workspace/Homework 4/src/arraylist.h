@@ -1,6 +1,6 @@
 /*
- * Name: <your name>
- * GTID: <your GTID>
+ * Name: Aliyah Crumbley
+ * GTID: 903543166
  * 
     A header file to declare macros, type definitions, and functions used in
     Arraylist.c. The arraylist is not generic; it is built to store pointers
